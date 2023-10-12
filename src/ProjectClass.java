@@ -4,7 +4,7 @@ public class ProjectClass {
         float myWeightEarthNhlanhla = 60f;
         /*This is the calculation of my weight on Mars by taking 38% of my Earth weight */
         float myWeightMarsNhlanhla  = ( myWeightEarthNhlanhla * 38)/100;
-        double myWeightMarsInDouble = (double)myWeightMarsNhlanhla;
+        double myWeightMarsInDouble = myWeightMarsNhlanhla;
         int myWeightMarsInInt = (int)myWeightMarsNhlanhla;
         char myWeightMarsInChar = (char)myWeightMarsInInt;
         char calculation = (char) (myWeightMarsInChar + '5'+'a');
